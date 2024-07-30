@@ -74,7 +74,7 @@ public class NetworkBuilder {
         return neuralNetwork;
     }
 
-    // Example subclass of FullyConnectedLayer
+ 
     private static class MyFullyConnectedLayer extends FullyConnectedLayer {
 
         public MyFullyConnectedLayer(int inputLength, int outputLength, long seed, double learningRate) {
@@ -83,47 +83,39 @@ public class NetworkBuilder {
 
         @Override
         public double[] getOutput(List<double[][]> input) {
-            // Implement your custom logic here
             return null;
         }
 
         @Override
         public double[] getOutput(double[] input) {
-            // Implement your custom logic here
             return null;
         }
 
         @Override
         public void backPropagation(double[] dLdO) {
-            // Implement your custom logic here
         }
 
         @Override
         public void backPropagation(List<double[][]> dLdO) {
-            // Implement your custom logic here
         }
 
         @Override
         public int getOutputLength() {
-            // Implement your custom logic here
             return 0;
         }
 
         @Override
         public int getOutputRows() {
-            // Implement your custom logic here
             return 0;
         }
 
         @Override
         public int getOutputCols() {
-            // Implement your custom logic here
             return 0;
         }
 
         @Override
         public int getOutputElements() {
-            // Implement your custom logic here
             return 0;
         }
     }

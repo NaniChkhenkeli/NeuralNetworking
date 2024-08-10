@@ -1,4 +1,5 @@
-CNN framework!
+## Welcome to CNN framework ##
+
 The network is designed to classify images from the MNIST dataset, which consists of grayscale images of handwritten digits (0-9). The project includes custom implementations of convolutional layers, fully connected layers, max pooling, and backpropagation.
 
 How It Works: 
